@@ -1,0 +1,6 @@
+### arthas 命令
+
+1) 查看方法用时
+```
+trace com.cainiao.cam.client.service.dataAuth.DataAuthService getFullQuantityDataAuth   '#cost > 10'
+```
