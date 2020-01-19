@@ -1,0 +1,2 @@
+## mysql 分组连接
+SELECT SId, GROUP_CONCAT( CId ORDER BY CId ) AS gc FROM SC GROUP BY SId
